@@ -1,8 +1,8 @@
 # GetDataCourseProject
-Data Science Specialization
-Course 3: Getting and Cleaning Data
-Course Project
-Fausto Martín López
+####Data Science Specialization
+####Course 3: Getting and Cleaning Data
+####Course Project
+####Fausto Martín López
 
 ## Functionality
 
@@ -30,19 +30,19 @@ This file contains one row for each activity and subject pair and columns for su
 ## Process
 
 1. Read common data for both training and test datasets:
-	a. Features related to mean and standard deviations (ids and names)
-	b. Activities (ids and names)
+	1. Features related to mean and standard deviations (ids and names)
+	2. Activities (ids and names)
 
 2. Read Test and Training datasets sequentially , doing for both:
-	a. Read desired features (mean and standard deviation)
-	b. Assign proper names to variables
-	c. Read and assign activities
-	d. Read and assign subjects
+	1. Read desired features (mean and standard deviation)
+	2. Assign proper names to variables
+	3. Read and assign activities
+	4. Read and assign subjects
 
 3. Merge Test and Training datasets
 
 4. Reshape merged dataset by activity and subject:
-	a. Melt
-	b. DCast calculating the mean
+	1. Melt
+	2. DCast calculating the mean
 
 5. Write tidy dataset to file-system
